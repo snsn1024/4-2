@@ -16,4 +16,5 @@ module Meshiterro
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
   end
+  Rails.application.config.assets.unknown_asset_fallback = true
 end
